@@ -1,0 +1,44 @@
+2022-12-20 14:12:678 INFO  HomePage :65 - Mouse Hovering to Desktop and Clicking on it: [[ChromeDriver: chrome on WINDOWS (1bbef38487685f6e345cf351b458b494)] -> link text: Desktops]
+2022-12-20 14:12:752 INFO  DesktopPage :70 - Selecting text from drop down
+2022-12-20 14:12:380 INFO  DesktopPage :75 - Clicking on HP product
+2022-12-20 14:12:941 INFO  HpProductPage :36 - Displaying error message
+2022-12-20 14:12:26 INFO  HpProductPage :42 - Selecting date, month and year
+2022-12-20 14:12:837 INFO  HpProductPage :70 - Enter quantity to quantity field [[ChromeDriver: chrome on WINDOWS (1bbef38487685f6e345cf351b458b494)] -> id: input-quantity]
+2022-12-20 14:12:05 INFO  HpProductPage :76 - Clicking on add to cart button
+2022-12-20 14:12:103 INFO  HpProductPage :81 - Displaying error message
+2022-12-20 14:12:143 INFO  HpProductPage :86 - Clicking on shopping cart link
+2022-12-20 14:12:33 INFO  HomePage :70 - Mouse Hovering to LaptopsNotebooks and Clicking on it: [[ChromeDriver: chrome on WINDOWS (d53720bd57bfe244ff7360ce4b313e87)] -> link text: Laptops & Notebooks]
+2022-12-20 14:12:269 INFO  LaptopsAndNotebooksPage :32 - Navigating to laptops and notebooks error message: [[ChromeDriver: chrome on WINDOWS (d53720bd57bfe244ff7360ce4b313e87)] -> xpath: //h2[contains(text(),'Laptops & Notebooks')]]
+2022-12-20 14:12:489 INFO  HomePage :70 - Mouse Hovering to LaptopsNotebooks and Clicking on it: [[ChromeDriver: chrome on WINDOWS (2dc39cc08632fdd87f37eaba50cd020f)] -> link text: Laptops & Notebooks]
+2022-12-20 14:12:314 INFO  LaptopsAndNotebooksPage :38 - Select price from drop down
+2022-12-20 14:12:946 INFO  LaptopsAndNotebooksPage :43 - Clicking pn MacBook Menu
+2022-12-20 14:12:406 INFO  MacBookPage :28 - Verify Macbook error Message [[ChromeDriver: chrome on WINDOWS (2dc39cc08632fdd87f37eaba50cd020f)] -> xpath: //h1[contains(text(),'MacBook')]]
+2022-12-20 14:12:429 INFO  HpProductPage :76 - Clicking on add to cart button
+2022-12-20 14:12:728 INFO  MacBookPage :39 - Click on shopping cart button[[ChromeDriver: chrome on WINDOWS (2dc39cc08632fdd87f37eaba50cd020f)] -> xpath: //a[contains(text(),'shopping cart')]]
+2022-12-20 14:12:211 INFO  ShoppingCartPage :51 - Enter shopping cart text error message [[ChromeDriver: chrome on WINDOWS (2dc39cc08632fdd87f37eaba50cd020f)] -> xpath: //div[@id='content']/h1[contains(text(), 'Shopping Cart')]]
+2022-12-20 14:12:274 INFO  ShoppingCartPage :76 - Verify Macbook name error message[[ChromeDriver: chrome on WINDOWS (2dc39cc08632fdd87f37eaba50cd020f)] -> xpath: //div[@class = 'table-responsive']/table/tbody/tr/td[2]/a]
+2022-12-20 14:12:43 INFO  ShoppingCartPage :87 - Verify macbook total error message[[ChromeDriver: chrome on WINDOWS (2dc39cc08632fdd87f37eaba50cd020f)] -> xpath: //div[@class = 'table-responsive']/table/tbody/tr/td[6]]
+2022-12-20 14:12:98 INFO  ShoppingCartPage :92 - Click on check button[[ChromeDriver: chrome on WINDOWS (2dc39cc08632fdd87f37eaba50cd020f)] -> xpath: //a[contains(text(),'Checkout')]]
+2022-12-20 14:12:582 INFO  CheckOutPage :84 - Checkout Text is: [[ChromeDriver: chrome on WINDOWS (2dc39cc08632fdd87f37eaba50cd020f)] -> xpath: //h1[contains(text(),'Checkout')]]
+2022-12-20 14:12:707 INFO  CheckOutPage :93 - Guest CheckOut Button: [[ChromeDriver: chrome on WINDOWS (2dc39cc08632fdd87f37eaba50cd020f)] -> id: button-account]
+2022-12-20 14:12:179 INFO  CheckOutPage :99 - Enter firstname Shane to email field [[ChromeDriver: chrome on WINDOWS (2dc39cc08632fdd87f37eaba50cd020f)] -> id: input-payment-firstname]
+2022-12-20 14:12:390 INFO  CheckOutPage :103 - Enter lastname Jhones to lastname field [[ChromeDriver: chrome on WINDOWS (2dc39cc08632fdd87f37eaba50cd020f)] -> id: input-payment-lastname]
+2022-12-20 14:12:576 INFO  CheckOutPage :107 - Enter email shanejhones@example.com to email field [[ChromeDriver: chrome on WINDOWS (2dc39cc08632fdd87f37eaba50cd020f)] -> id: input-payment-email]
+2022-12-20 14:12:752 INFO  CheckOutPage :111 - Enter phone 9876543212 to telephone field [[ChromeDriver: chrome on WINDOWS (2dc39cc08632fdd87f37eaba50cd020f)] -> id: input-payment-telephone]
+2022-12-20 14:12:911 INFO  CheckOutPage :115 - Enter address 3 Procter Close to address field [[ChromeDriver: chrome on WINDOWS (2dc39cc08632fdd87f37eaba50cd020f)] -> id: input-payment-address-1]
+2022-12-20 14:12:52 INFO  CheckOutPage :119 - Enter city name Rugby to cityname field [[ChromeDriver: chrome on WINDOWS (2dc39cc08632fdd87f37eaba50cd020f)] -> id: input-payment-email]
+2022-12-20 14:12:214 INFO  CheckOutPage :123 - Enter postcode C2 4RT to postcode field [[ChromeDriver: chrome on WINDOWS (2dc39cc08632fdd87f37eaba50cd020f)] -> id: input-payment-postcode]
+2022-12-20 14:12:330 INFO  CheckOutPage :127 - Select country from dropdown
+2022-12-20 14:12:450 INFO  CheckOutPage :131 - Select state from dropdown
+2022-12-20 14:12:615 INFO  CheckOutPage :157 - Clicking on continue link
+2022-12-20 14:12:406 INFO  HomePage :80 - Clicking on my account: [[ChromeDriver: chrome on WINDOWS (6383148321daeda0e7d2452fd502f694)] -> xpath: //span[text()='My Account']]
+2022-12-20 14:12:393 INFO  RegisterPage :49 - Verify Register Account Text [[ChromeDriver: chrome on WINDOWS (6383148321daeda0e7d2452fd502f694)] -> xpath: //h1[text()='Register Account']]
+2022-12-20 14:12:241 INFO  HomePage :65 - Mouse Hovering to Desktop and Clicking on it: [[ChromeDriver: chrome on WINDOWS (19d1693d4259dc4586c5f773ae73699b)] -> link text: Desktops]
+2022-12-20 14:12:440 INFO  HomePage :65 - Mouse Hovering to Desktop and Clicking on it: [[ChromeDriver: chrome on WINDOWS (19d1693d4259dc4586c5f773ae73699b)] -> link text: Desktops]
+2022-12-20 14:12:661 INFO  DesktopPage :41 - Arrange products in descending order
+2022-12-20 14:12:25 INFO  HomePage :65 - Mouse Hovering to Desktop and Clicking on it: [[ChromeDriver: chrome on WINDOWS (54e60a5f4f39c7820cca22b1e45e3d2e)] -> link text: Desktops]
+2022-12-20 14:12:407 INFO  DesktopPage :35 - Navigate to desktop error message
+2022-12-20 14:12:900 INFO  HomePage :70 - Mouse Hovering to LaptopsNotebooks and Clicking on it: [[ChromeDriver: chrome on WINDOWS (05e2d01e1a8372c60be9e1448e2167f8)] -> link text: Laptops & Notebooks]
+2022-12-20 14:12:136 INFO  LaptopsAndNotebooksPage :48 - Arranging product in high to low order: 
+2022-12-20 14:12:248 INFO  HomePage :80 - Clicking on my account: [[ChromeDriver: chrome on WINDOWS (67aa5a6a3eef50e10dfaf7af541d5a92)] -> xpath: //span[text()='My Account']]
+2022-12-20 14:12:676 INFO  LoginPage :30 - Verifying returning customer: [[ChromeDriver: chrome on WINDOWS (67aa5a6a3eef50e10dfaf7af541d5a92)] -> xpath: //h2[contains(text(),'Returning Customer')]]

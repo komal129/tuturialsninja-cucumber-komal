@@ -1,0 +1,453 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8443163200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "I will verify products are arranged in Alphabetical order",
+        "description": "",
+        "id": "desktop-test;i-will-verify-products-are-arranged-in-alphabetical-order",
+        "after": [
+          {
+            "result": {
+              "duration": 784008300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 356467600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am in Desktops page",
+            "match": {
+              "location": "DesktopPageSteps.iAmInDesktopsPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 172280500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I mousehover to desktop and click",
+            "match": {
+              "location": "HomePageSteps.iMousehoverToDesktopAndClick()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20056503700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select menu \"Show All Desktops\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Show All Desktops",
+                  "offset": 15
+                }
+              ],
+              "location": "HomePageSteps.iSelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20188733400,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#input\\-sort\"}\n  (Session info: chrome\u003d108.0.5359.125)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.6.0\u0027, revision: \u002779f1c02ae20\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_202\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [19d1693d4259dc4586c5f773ae73699b, findElement {using\u003did, value\u003dinput-sort}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\Komal\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57008/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 19d1693d4259dc4586c5f773ae73699b\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat com.tutorialsninja.utility.Utility.selectByVisibleTextFromDropDown(Utility.java:163)\r\n\tat com.tutorialsninja.pages.DesktopPage.arrangeProductInDescendingOrder(DesktopPage.java:54)\r\n\tat com.tutorialsninja.cucumber.steps.DesktopPageSteps.iVerifyProductsAreArrangedInAlphabeticalOrder(DesktopPageSteps.java:25)\r\n\tat ✽.Then I verify products are arranged in Alphabetical order(desktop.feature:10)\r\n",
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "I verify products are arranged in Alphabetical order",
+            "match": {
+              "location": "DesktopPageSteps.iVerifyProductsAreArrangedInAlphabeticalOrder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Desktop Test",
+    "description": "As a user I should navigate to Desktop page successfully",
+    "id": "desktop-test",
+    "keyword": "Feature",
+    "uri": "desktop.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3319598900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User should navigate to desktops page successfully",
+        "description": "",
+        "id": "homepage-test;user-should-navigate-to-desktops-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 71500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 50000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomePageSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 504279100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I mousehover to desktop and click",
+            "match": {
+              "location": "HomePageSteps.iMousehoverToDesktopAndClick()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 904901300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select menu \"Show All Desktops\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Show All Desktops",
+                  "offset": 15
+                }
+              ],
+              "location": "HomePageSteps.iSelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66277800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify \"Desktops\" text",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Desktops",
+                  "offset": 8
+                }
+              ],
+              "location": "HomePageSteps.verifyText(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Homepage Test",
+    "description": "As a user I want to navigate to Desktop page successfully",
+    "id": "homepage-test",
+    "keyword": "Feature",
+    "uri": "homepage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3371351600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "I will verify products are displayed in high to low order",
+        "description": "",
+        "id": "laptops-and-notebooks-test;i-will-verify-products-are-displayed-in-high-to-low-order",
+        "after": [
+          {
+            "result": {
+              "duration": 28400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 59200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomePageSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 576974800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I mouse hover to LaptopsAndNotebooks tab and click",
+            "match": {
+              "location": "LaptopsAndNotebooksSteps.iMouseHoverToLaptopsAndNotebooksTabAndClick()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 700377700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select menu \"Show All Laptops \u0026 Notebooks\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Show All Laptops \u0026 Notebooks",
+                  "offset": 15
+                }
+              ],
+              "location": "HomePageSteps.iSelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 906617200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify product are arranged in high to low order",
+            "match": {
+              "location": "LaptopsAndNotebooksSteps.verifyProductAreArrangedInHighToLowOrder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Laptops And Notebooks Test",
+    "description": "As a user I should navigate to Laptops And Notebooks page successfully",
+    "id": "laptops-and-notebooks-test",
+    "keyword": "Feature",
+    "uri": "laptopsandnotebooks.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3171196000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User should navigate to login page successfully",
+        "description": "",
+        "id": "myaccounts-test;user-should-navigate-to-login-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 29100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 38700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomePageSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 86489200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on \"My Account\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "My Account",
+                  "offset": 12
+                }
+              ],
+              "location": "MyAccountsPageSteps.iClickOnTab(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 351030000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I select \"Login\" menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login",
+                  "offset": 10
+                }
+              ],
+              "location": "MyAccountsPageSteps.iSelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64893400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Verify \"Returning Customer\" text is displayed on login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Returning Customer",
+                  "offset": 8
+                }
+              ],
+              "location": "MyAccountsPageSteps.verifyTextIsDisplayedOnLoginPage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "MyAccounts Test",
+    "description": "As a user I want to test my accounts test",
+    "id": "myaccounts-test",
+    "keyword": "Feature",
+    "uri": "myaccountstest.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]
